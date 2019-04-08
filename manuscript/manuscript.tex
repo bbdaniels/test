@@ -1,0 +1,99 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tufte-Style Book (Minimal Template)
+% LaTeX Template
+% Version 1.0 (5/1/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% IMPORTANT NOTE:
+% In addition to running BibTeX to compile the reference list from the .bib
+% file, you will need to run MakeIndex to compile the index at the end of the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{chapters/preamble.tex}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+
+\cleardoublepage
+\chapter*{Introduction} % The asterisk leaves out this chapter from the table of contents
+
+\input{chapters/introduction.tex}
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER 1
+%----------------------------------------------------------------------------------------
+
+\chapter{Before You Begin: Data security and research transparency}
+\label{ch:1}
+
+\input{chapters/before-you-begin.tex}
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER 2
+%----------------------------------------------------------------------------------------
+
+\chapter{Planning data work before going to field}
+\label{ch:2}
+
+\input{chapters/planning-data-work.tex}
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER 3
+%----------------------------------------------------------------------------------------
+
+\chapter{Research design for causal inference}
+\label{ch:3}
+
+\input{chapters/research-design.tex}
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER 4
+%----------------------------------------------------------------------------------------
+
+\chapter{Sampling, randomization, and power}
+\label{ch:4}
+
+\input{chapters/sampling-randomization-power.tex}
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER 5
+%----------------------------------------------------------------------------------------
+
+\chapter{Managing primary data collection}
+\label{ch:5}
+
+\input{chapters/data-collection.tex}
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER 6
+%----------------------------------------------------------------------------------------
+
+\chapter{Analyzing primary survey data}
+\label{ch:6}
+
+\input{chapters/data-analysis.tex}
+
+%----------------------------------------------------------------------------------------
+
+\backmatter
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\bibliography{bibliography} % Use the bibliography.bib file for the bibliography
+\bibliographystyle{apalike} % Use the plainnat style of referencing
+
+%----------------------------------------------------------------------------------------
+
+\printindex % Print the index at the very end of the document
+
+\end{document}
