@@ -58,6 +58,8 @@
 
 # LaTeX
 !/**/*.tex
+!/**/*.cls
+!/**/*.def
 
 # Python
 !/**/*.py
